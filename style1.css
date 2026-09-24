@@ -1,0 +1,15 @@
+div {
+    /* key : value */
+    /* property : value */
+    height:150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 50px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+
+}

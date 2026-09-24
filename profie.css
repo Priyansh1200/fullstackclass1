@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+#profile-image {
+    height: 150px;
+    width: 450px;
+   
+    border-radius: 100%;
+    
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;  
+
+    border: 5px solid white;
+
+}
+.text-color {
+    color: white;
+
+}

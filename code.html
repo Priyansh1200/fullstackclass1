@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Right Sidebar Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+            font-family: Georgia, serif;
+        }
+
+        /* Main Section */
+        .main-section {
+            width: calc(100% - 200px);
+            height: 100vh;
+            background-color: blue;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: white;
+        }
+
+        .main-section h1 {
+            font-size: 32px;
+        }
+
+        /* Sidebar - Right Side */
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background-color: cyan;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .sidebar h1 {
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Section -->
+    <div class="main-section">
+        <h1>This is Main Section</h1>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="sidebar">
+
+        <h1>LOGO</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Services</a>
+        </nav>
+
+    </div>
+
+</body>
+</html>
